@@ -12,12 +12,12 @@ let gameover = document.querySelector(".gameover");
 let good = document.querySelector(".good");
 var levels = document.querySelector(".levels");
 
-var i = 0;
-
-var a = 0;
-
-var c = "";
+var i = 0,
+    a = 0,
+    c = "";
 conditions.textContent = 0;
+
+
 //function start playing
 function play() {
     writtenText.focus();
@@ -26,8 +26,6 @@ function play() {
     letsstart();
     changeword();
     interval = setInterval(changeword, 4000);
-
-
 
 }
 
@@ -44,7 +42,6 @@ function display() {
 function changeword() {
     letsstart();
     if (i < 3) {
-
         display();
         i++;
         writtenText.value = "";
@@ -93,15 +90,6 @@ function level() {
 }
 
 
-function checktheword() {
-    gameover.classList.add("failed");
-    document.location.reload();
-
-}
-
-
-
 function transition() {
     textwords.remove();
-
 }
