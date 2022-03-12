@@ -1,0 +1,28 @@
+Advices
+-
+-ALways check the console
+-take ur time to Name the Identifiers
+-Dry
+
+
+STEPS TO CREATE THE PROJECT
+[1]-Create html markup
+[2]-add styling and seperate from logic
+[3]-create the app logic
+-----1 Add levels
+-----2 show level and seconds
+-----3 add array of words
+------4 add start game button
+----5 generate upcoming words
+---6 disable copy word and paste event + focus on input
+---7 start play function
+---8 start the time and count score
+---9 add the error and success Messages
+
+[4] Your Trainings To Add Features
+----1 save score to local storage with date
+----2 choose levels from select Box
+----3 break the logic to more functions
+---4 choose array of words for every level
+---5 write Game Instructions with dynamic Values
+----6 add 3 seconds for the first Word 

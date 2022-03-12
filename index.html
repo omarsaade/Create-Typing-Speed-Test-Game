@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Typing Game Speed</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <!-- Game Title -->
+    <div class="title">
+        <h1 class="text-center">Typing Speed Test Game</h1>
+    </div>
+    <!-- level -->
+    <div class="level">
+        <h4 class="text-level">You Are Playing On <span class="condition">[ Normal ]</span> Level & You Have <span
+                class="condition"> [ 3 ]</span> Seconds
+            To Type The
+            Word</h4>
+    </div>
+    <!-- start playing -->
+    <div class="word">
+        <div class="start">
+            <p class="text-center playhover" onclick="play()">START PLAYING</p>
+        </div>
+    </div>
+    <!-- place of writing -->
+    <div class="writingplace">
+        <input type="text" class="writing">
+    </div>
+    <!-- place of showing words -->
+    <div class="level levels">
+        <h4 class="text-word">Words Will Show Here</h4>
+    </div>
+    <!-- Timer -->
+    <div class="timerbox">
+        <span class="firstspan">Time Left: <span id="countdown" class="condition">3</span> seconds</span>
+        <span class="secondspan">Score: <span class="condition conditions"></span> From <span
+                class="condition">3</span></span>
+    </div>
+    <div class="gameover">Game Over</div>
+    <div class="congrats">Congrats</div>
+    <div class="good">Good</div>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
