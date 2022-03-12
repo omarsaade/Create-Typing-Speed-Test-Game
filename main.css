@@ -8,6 +8,7 @@
 
 body {
     background-color: #dfe4ea;
+
 }
 
 /* css for first div */
@@ -69,6 +70,7 @@ body {
     margin: 1% auto;
     padding: 1%;
     border-radius: 2px;
+    user-select: none;
 }
 
 
@@ -79,6 +81,7 @@ body {
     color: #ffffff;
     padding: 1%;
     color: #1e90ff;
+    user-select: none;
 }
 
 /* css for the fourth div */

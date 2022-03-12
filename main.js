@@ -1,5 +1,5 @@
 // Array of words
-const ourWords = ["code", "hello", "programming"];
+const ourWords = ["code", "hello", "java"];
 
 let playGame = document.querySelector(".start");
 let words = document.querySelector(".word");
@@ -13,7 +13,7 @@ let good = document.querySelector(".good");
 var levels = document.querySelector(".levels");
 
 var i = 0,
-    a = 0,
+    // a = 0,
     c = "";
 conditions.textContent = 0;
 
@@ -57,7 +57,7 @@ function changeword() {
 var increase = setInterval(() => {
     for (let j = 0; j < ourWords.length; j++) {
         if (writtenText.value == ourWords[j]) {
-            a++;
+            // a++;
             conditions.textContent++;
             level();
         }
@@ -84,8 +84,9 @@ function letsstart() {
 
 
 function level() {
-    if (a == 3) {
+    if (conditions.textContent == 3) {
         congrats.classList.add("active");
+
     }
 }
 

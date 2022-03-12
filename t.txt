@@ -1,8 +1,21 @@
 Advices
+-     user-select: none;
+
+-     caret-color:#01a3a4; (el line bel input :focus) + text-align: center;
+
+-    .focus();
+
+-  :focus {  outline:none; }
+
+- nelgi paste event .kif?
+input.onpaste = function(){return false;}
+
 -
+
+
 -ALways check the console
 -take ur time to Name the Identifiers
--Dry
+-Dry : dont repeat yourself
 
 
 STEPS TO CREATE THE PROJECT
